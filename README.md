@@ -16,9 +16,9 @@ Ce dépôt est une **vitrine**. Il expose la méthode et les invariants, pas l'i
 | Modules notés sur 20, maison et tiers sur la même grille | 244 |
 | Jours de veille technique ingérés et arbitrés | 66 |
 | Décisions tracées, avec option par défaut et échéance | 345 |
-| Assistants branchés sur le même outillage | 4, plus des modèles locaux |
+| IA branchées sur le même outillage | 6 : Claude Opus, Claude Fable, Codex, Gemini, Qwen et Gemma en local, Hermes |
 
-Ces chiffres sont relevés par les outils eux-mêmes, pas estimés.
+Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Le [journal](JOURNAL.md) date chaque étape.
 
 ---
 
