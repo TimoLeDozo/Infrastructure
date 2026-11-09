@@ -6,19 +6,28 @@ Ce dépôt est une **vitrine**. Il expose la méthode et les invariants, pas l'i
 
 ---
 
-## En chiffres (octobre 2026)
+## En chiffres (<!-- mesure:mois -->novembre 2026<!-- /mesure -->)
 
 | Mesure | Valeur |
 |---|---|
-| Outils indexés par le routeur (scripts, CLI, compétences, agents, serveurs MCP) | 607 |
-| Sondes de santé, chacune capable d'échouer | 102 |
-| Fichiers de tests automatisés | 242 |
-| Modules notés sur 20, maison et tiers sur la même grille | 244 |
-| Jours de veille technique ingérés et arbitrés | 66 |
-| Décisions tracées, avec option par défaut et échéance | 345 |
+| Outils indexés par le routeur (scripts, CLI, compétences, agents, serveurs MCP) | <!-- mesure:outils -->633<!-- /mesure --> |
+| Sondes de santé, chacune capable d'échouer | <!-- mesure:sondes -->113<!-- /mesure --> |
+| Fichiers de tests automatisés | <!-- mesure:tests -->279<!-- /mesure --> |
+| Modules notés sur 20, maison et tiers sur la même grille (relevé du 09/11) | 235 |
+| Jours de veille technique ingérés et arbitrés | <!-- mesure:veille -->81<!-- /mesure --> |
+| Décisions tracées, avec option par défaut et échéance | <!-- mesure:decisions -->595<!-- /mesure --> |
 | IA branchées sur le même outillage | 6 : Claude Opus, Claude Fable, Codex, Gemini, Qwen et Gemma en local, Hermes |
 
-Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Le [journal](JOURNAL.md) date chaque étape.
+Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Dernier relevé : <!-- mesure:maj -->09/11/2026<!-- /mesure -->. Le [journal](JOURNAL.md) date chaque étape.
+
+## Ce qui est investi
+
+| Poste | Détail |
+|---|---|
+| Serveur de calcul, allumé en continu | Dell GB10, puce NVIDIA GB10, 128 Go de mémoire unifiée, ARM64 : modèles locaux, supervision, sauvegardes |
+| Poste de travail | HP Victus, RTX 3060, 32 Go de mémoire |
+| Point d'entrée | Un serveur privé virtuel, les machines reliées par un réseau privé |
+| Temps de construction | Une personne, commits du dépôt privé depuis juillet 2026 : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 54 en novembre<!-- /mesure --> |
 
 ---
 

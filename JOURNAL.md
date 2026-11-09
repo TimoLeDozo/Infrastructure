@@ -1,10 +1,10 @@
 # Journal
 
-Les étapes datées du dépôt privé, publiées sans topologie. Rythme : 10 commits en juillet 2026,
-52 en août, 220 en septembre, 41 du 1er au 25 octobre.
+Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 54 en novembre<!-- /mesure -->.
 
 | Date | Ce qui a changé |
 |---|---|
+| 09/11/2026 | Le tableau de bord de pilotage de l'infrastructure s'affiche désormais en 16 secondes au lieu de 4 min 40, et les quotas d'usage ainsi que les sondes de santé y sont de nouveau lisibles. |
 | 25/10/2026 | Relecture critique des sessions quatre fois par semaine par le juge. Note sur 20 des 244 modules, maison et tiers sur la même grille. Sas d'entrée gradué. Missions confiées à l'exécutant en une commande, avec reçu mesuré |
 | 16/10/2026 | Travail de nuit v2. Garde anti-suppression commune au pilote et à l'exécutant, qui refuse aussi quand elle tombe en panne |
 | 02/10/2026 | Supervision de disponibilité sur la station GPU, images compilées pour ARM64 |
