@@ -1,5 +1,7 @@
 # Infrastructure
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banniere-sombre.svg"><img src="assets/banniere-clair.svg" alt="Infrastructure. Rien n'entre, ne reste ou ne change sans une mesure." width="100%"></picture>
+
 **Une boîte à outils qui reste au point, et un parc de logiciels libres tenu comme un atelier : inventorié, mesuré, noté, réparable.**
 
 Ce dépôt est une **vitrine**. Il expose la méthode et les invariants, pas l'installation. Aucune adresse, aucun port, aucun nom d'hôte, aucune configuration exécutable n'y figure. Le dépôt exploité reste privé.
@@ -10,15 +12,15 @@ Ce dépôt est une **vitrine**. Il expose la méthode et les invariants, pas l'i
 
 | Mesure | Valeur |
 |---|---|
-| Outils indexés par le routeur (scripts, CLI, compétences, agents, serveurs MCP) | <!-- mesure:outils -->633<!-- /mesure --> |
+| Outils indexés par le routeur (scripts, CLI, compétences, agents, serveurs MCP) | <!-- mesure:outils -->632<!-- /mesure --> |
 | Sondes de santé, chacune capable d'échouer | <!-- mesure:sondes -->113<!-- /mesure --> |
-| Fichiers de tests automatisés | <!-- mesure:tests -->280<!-- /mesure --> |
+| Fichiers de tests automatisés | <!-- mesure:tests -->285<!-- /mesure --> |
 | Modules notés sur 20, maison et tiers sur la même grille (relevé du 09/11) | 235 |
 | Jours de veille technique ingérés et arbitrés | <!-- mesure:veille -->82<!-- /mesure --> |
-| Décisions tracées, avec option par défaut et échéance | <!-- mesure:decisions -->603<!-- /mesure --> |
+| Décisions tracées, avec option par défaut et échéance | <!-- mesure:decisions -->609<!-- /mesure --> |
 | IA branchées sur le même outillage | 6 : Claude Opus, Claude Fable, Codex, Gemini, Qwen et Gemma en local, Hermes |
 
-Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Dernier relevé : <!-- mesure:maj -->10/11/2026<!-- /mesure -->. Le [journal](JOURNAL.md) date chaque étape.
+Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Dernier relevé : <!-- mesure:maj -->11/11/2026<!-- /mesure -->. Le [journal](JOURNAL.md) date chaque étape.
 
 ## Ce qui est investi
 
@@ -27,7 +29,7 @@ Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Dernier rele
 | Serveur de calcul, allumé en continu | Dell GB10, puce NVIDIA GB10, 128 Go de mémoire unifiée, ARM64 : modèles locaux, supervision, sauvegardes |
 | Poste de travail | HP Victus, RTX 3060, 32 Go de mémoire |
 | Point d'entrée | Un serveur privé virtuel, les machines reliées par un réseau privé |
-| Temps de construction | Une personne, commits du dépôt privé depuis juillet 2026 : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 54 en novembre<!-- /mesure --> |
+| Temps de construction | Une personne, commits du dépôt privé depuis juillet 2026 : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 60 en novembre<!-- /mesure --> |
 
 ---
 
@@ -274,4 +276,5 @@ Voir aussi **[MoltBot Hub](https://github.com/TimoLeDozo/MoltBot-Hub)** : la cou
 ## Auteur
 
 Timothé Cagin, ingénieur diplômé ICAM
-[ICARUS](https://icarus-ia.fr) · [LinkedIn](https://www.linkedin.com/in/timoth%C3%A9-cagin-61a711225/)
+
+<a href="https://icarus-ia.fr"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/site-sombre.svg"><img src="assets/site-clair.svg" alt="ICARUS, icarus-ia.fr" height="44"></picture></a>&nbsp;<a href="https://www.linkedin.com/in/timoth%C3%A9-cagin-61a711225/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/linkedin-sombre.svg"><img src="assets/linkedin-clair.svg" alt="LinkedIn de Timothé Cagin" height="44"></picture></a>

@@ -1,9 +1,10 @@
 # Journal
 
-Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 54 en novembre<!-- /mesure -->.
+Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 60 en novembre<!-- /mesure -->.
 
 | Date | Ce qui a changé |
 |---|---|
+| 11/11/2026 | Cinq ruptures corrigées dans la chaîne de mise à jour automatique du système de veille, après audit. Le modèle de synthèse vocale Kokoro-82M est admis comme challenger, soit candidat comparé au modèle en place. |
 | 10/11/2026 | Recherche documentaire du projet Hub : objectif atteint sur une branche d'essai, MRR (qualité du classement) de 0,861. Le routeur d'outils propose le radar de veille dès trois liens dans un message, et la sonde de la file de décisions humaines suit le vrai lanceur. |
 | 09/11/2026 | Le tableau de bord de pilotage de l'infrastructure s'affiche désormais en 16 secondes au lieu de 4 min 40, et les quotas d'usage ainsi que les sondes de santé y sont de nouveau lisibles. |
 | 25/10/2026 | Relecture critique des sessions quatre fois par semaine par le juge. Note sur 20 des 244 modules, maison et tiers sur la même grille. Sas d'entrée gradué. Missions confiées à l'exécutant en une commande, avec reçu mesuré |
