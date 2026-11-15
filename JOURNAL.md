@@ -1,9 +1,10 @@
 # Journal
 
-Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 169 en novembre<!-- /mesure -->.
+Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 170 en novembre<!-- /mesure -->.
 
 | Date | Ce qui a changé |
 |---|---|
+| 15/11/2026 | Sonde de non-usage à 30 jours : mise en réserve proposée pour un serveur MCP (connecteur d'outils d'IA) inutilisé. Routine d'auto-amélioration claude-update exécutée le 15 novembre, avec repli sur le modèle Opus. |
 | 13/11/2026 | Huit branches nocturnes d'agents IA fusionnées automatiquement après tests verts, et un refus du garde-fou de pré-commit ne laisse plus la branche indexée dans l'arbre de travail. Tests de la forge Git auto-hébergée : 11 échecs corrigés, 130 verts. |
 | 12/11/2026 | Trois lots fusionnés, dont le routage des jobs et le sas de scanners de sécurité, écrits par un agent IA et relus par un second. Script prêt pour Forgejo (forge Git auto-hébergée), limité à pousser les branches d'agents. |
 | 11/11/2026 | Cinq ruptures corrigées dans la chaîne de mise à jour automatique du système de veille, après audit. Le modèle de synthèse vocale Kokoro-82M est admis comme challenger, soit candidat comparé au modèle en place. |
