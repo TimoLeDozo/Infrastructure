@@ -1,9 +1,10 @@
 # Journal
 
-Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 174 en novembre<!-- /mesure -->.
+Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 181 en novembre<!-- /mesure -->.
 
 | Date | Ce qui a changé |
 |---|---|
+| 17/11/2026 | Veille technologique automatisée : le juge des fiches traite 60 fiches par passage au lieu de 10, ne rejuge plus celles déjà tranchées par règle, et une règle écarte les sources stériles avant lui. |
 | 16/11/2026 | Deux changements issus de branches nocturnes sont repris, le dossier temporaire racine est exclu de l'instantané quotidien, la vérification à 7 jours d'une extension d'agent de cadrage d'objectifs est passée, et la mise à jour du 15/11 a tourné avec le modèle Opus de secours. |
 | 15/11/2026 | Sonde de non-usage à 30 jours : mise en réserve proposée pour un serveur MCP (connecteur d'outils d'IA) inutilisé. Routine d'auto-amélioration claude-update exécutée le 15 novembre, avec repli sur le modèle Opus. |
 | 13/11/2026 | Huit branches nocturnes d'agents IA fusionnées automatiquement après tests verts, et un refus du garde-fou de pré-commit ne laisse plus la branche indexée dans l'arbre de travail. Tests de la forge Git auto-hébergée : 11 échecs corrigés, 130 verts. |
