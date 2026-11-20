@@ -1,9 +1,10 @@
 # Journal
 
-Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 336 en novembre<!-- /mesure -->.
+Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 467 en novembre<!-- /mesure -->.
 
 | Date | Ce qui a changé |
 |---|---|
+| 20/11/2026 | Une sonde de supervision rend désormais « inconnu » et non « en panne » quand un outil reste muet au-delà du délai. La reprise automatique de Claude après une limite d'usage vise la première minute disponible et évite les doublons. |
 | 19/11/2026 | Les sessions Claude reprennent seules la même conversation après une limite d'usage, et une garde protège la copie principale du dépôt git. Les tests de la dernière fusion donnent 4991 réussites et 17 échecs propres à l'environnement de travail isolé. |
 | 17/11/2026 | Veille technologique automatisée : le juge des fiches traite 60 fiches par passage au lieu de 10, ne rejuge plus celles déjà tranchées par règle, et une règle écarte les sources stériles avant lui. |
 | 16/11/2026 | Deux changements issus de branches nocturnes sont repris, le dossier temporaire racine est exclu de l'instantané quotidien, la vérification à 7 jours d'une extension d'agent de cadrage d'objectifs est passée, et la mise à jour du 15/11 a tourné avec le modèle Opus de secours. |
