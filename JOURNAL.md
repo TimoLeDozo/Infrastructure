@@ -1,9 +1,10 @@
 # Journal
 
-Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 473 en novembre<!-- /mesure -->.
+Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 518 en novembre<!-- /mesure -->.
 
 | Date | Ce qui a changé |
 |---|---|
+| 22/11/2026 | Un modèle auto-hébergé résume un long fichier en une commande, sans consommer de quota (20 Ko de journal en 10 s). Sa sortie est plafonnée à 16 384 jetons depuis qu'une génération sans limite l'a bloqué 2 h 40. |
 | 21/11/2026 | Le banc de test vérifie qu'un processus tué entraîne la fin de son processus petit-enfant, durée relevée. Les sauvegardes Restic attendent un verrou concurrent et lèvent les verrous périmés avant la rétention. Une ouverture Instagram hors délai est retentée une fois, puis bloque proprement. |
 | 20/11/2026 | Une sonde de supervision rend désormais « inconnu » et non « en panne » quand un outil reste muet au-delà du délai. La reprise automatique de Claude après une limite d'usage vise la première minute disponible et évite les doublons. |
 | 19/11/2026 | Les sessions Claude reprennent seules la même conversation après une limite d'usage, et une garde protège la copie principale du dépôt git. Les tests de la dernière fusion donnent 4991 réussites et 17 échecs propres à l'environnement de travail isolé. |

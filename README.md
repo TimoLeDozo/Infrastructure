@@ -12,15 +12,15 @@ Ce dépôt est une **vitrine**. Il expose la méthode et les invariants, pas l'i
 
 | Mesure | Valeur |
 |---|---|
-| Outils indexés par le routeur (scripts, CLI, compétences, agents, serveurs MCP) | <!-- mesure:outils -->757<!-- /mesure --> |
-| Sondes de santé, chacune capable d'échouer | <!-- mesure:sondes -->131<!-- /mesure --> |
-| Fichiers de tests automatisés | <!-- mesure:tests -->433<!-- /mesure --> |
+| Outils indexés par le routeur (scripts, CLI, compétences, agents, serveurs MCP) | <!-- mesure:outils -->761<!-- /mesure --> |
+| Sondes de santé, chacune capable d'échouer | <!-- mesure:sondes -->133<!-- /mesure --> |
+| Fichiers de tests automatisés | <!-- mesure:tests -->441<!-- /mesure --> |
 | Modules notés sur 20, maison et tiers sur la même grille (relevé du 09/11) | 235 |
-| Jours de veille technique ingérés et arbitrés | <!-- mesure:veille -->93<!-- /mesure --> |
-| Décisions tracées, avec option par défaut et échéance | <!-- mesure:decisions -->798<!-- /mesure --> |
+| Jours de veille technique ingérés et arbitrés | <!-- mesure:veille -->94<!-- /mesure --> |
+| Décisions tracées, avec option par défaut et échéance | <!-- mesure:decisions -->821<!-- /mesure --> |
 | IA branchées sur le même outillage | 6 : Claude Opus, Claude Fable, Codex, Gemini, Qwen et Gemma en local, Hermes |
 
-Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Dernier relevé : <!-- mesure:maj -->21/11/2026<!-- /mesure -->. Le [journal](JOURNAL.md) date chaque étape.
+Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Dernier relevé : <!-- mesure:maj -->22/11/2026<!-- /mesure -->. Le [journal](JOURNAL.md) date chaque étape.
 
 ## Ce qui est investi
 
@@ -29,7 +29,7 @@ Ces chiffres sont relevés par les outils eux-mêmes, pas estimés. Dernier rele
 | Serveur de calcul, allumé en continu | Dell GB10, puce NVIDIA GB10, 128 Go de mémoire unifiée, ARM64 : modèles locaux, supervision, sauvegardes |
 | Poste de travail | HP Victus, RTX 3060, 32 Go de mémoire |
 | Point d'entrée | Un serveur privé virtuel, les machines reliées par un réseau privé |
-| Temps de construction | Une personne, commits du dépôt privé depuis juillet 2026 : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 473 en novembre<!-- /mesure --> |
+| Temps de construction | Une personne, commits du dépôt privé depuis juillet 2026 : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 518 en novembre<!-- /mesure --> |
 
 ---
 
