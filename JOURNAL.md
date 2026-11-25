@@ -1,9 +1,10 @@
 # Journal
 
-Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 625 en novembre<!-- /mesure -->.
+Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 647 en novembre<!-- /mesure -->.
 
 | Date | Ce qui a changé |
 |---|---|
+| 25/11/2026 | Le scanner de sécurité SkillSpector, qui contrôle les compétences installables de l'IA, a fait relire 27 compétences de plus par un juge automatique, soit 154 au total. Les publications vers GitHub retentent après une erreur 500 et poussent un commit resté en retard. |
 | 24/11/2026 | Les scanners de sécurité du sas d'entrée ignorent désormais les liens symboliques d'un clone, et la purge des branches crée par défaut une sauvegarde datée du jour. Deux branches de travail d'agents IA ont aussi été fusionnées (7 fichiers) avec des tests verts. |
 | 23/11/2026 | Les sondes de nuit nomment la cause d'un échec au lieu d'un simple rouge. Une sonde signale les routines de sécurité non inscrites, l'audit échoue si la boîte à outils manque, et un 204 sans corps de GitHub n'est plus une panne réseau. |
 | 22/11/2026 | Un modèle auto-hébergé résume un long fichier en une commande, sans consommer de quota (20 Ko de journal en 10 s). Sa sortie est plafonnée à 16 384 jetons depuis qu'une génération sans limite l'a bloqué 2 h 40. |
