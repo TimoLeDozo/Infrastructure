@@ -1,9 +1,10 @@
 # Journal
 
-Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 719 en novembre<!-- /mesure -->.
+Les étapes datées du dépôt privé, publiées sans topologie. Commits du dépôt privé : <!-- mesure:rythme -->10 en juillet, 52 en août, 220 en septembre, 60 en octobre, 732 en novembre<!-- /mesure -->.
 
 | Date | Ce qui a changé |
 |---|---|
+| 28/11/2026 | Des sauvegardes de nuit et des caches de sondes échouaient sous Windows (nom réservé NUL, droits privés des dossiers temporaires), ce qui est corrigé. Le hook pre-push, la bascule des tâches et le job de nuit sont réparés, et la sonde J+7 d'Upscayl est validée. |
 | 27/11/2026 | Quatre sondes sont réparties sur le poste de travail (Dell) : une panne d'accès ne rougit plus tout le parc, un repli par l'API Ollama garde l'inventaire lisible, et la sonde de sauvegarde mesure l'objectif de point de reprise (RPO) sur les propres instantanés du poste. Les cascades de moteurs de tickets (Gemini, Codex, local, Claude) sont désormais définies. |
 | 26/11/2026 | Le répartiteur de tickets lance six sessions en parallèle avec une garde mémoire de 8 Go, choisit le moteur selon les quotas et détourne Codex avant sa limite. Le CLAUDE.md d'Infrastructure passe de 41 962 à 8 955 caractères, et le registre des machines est unifié. |
 | 25/11/2026 | Le scanner de sécurité SkillSpector, qui contrôle les compétences installables de l'IA, a fait relire 27 compétences de plus par un juge automatique, soit 154 au total. Les publications vers GitHub retentent après une erreur 500 et poussent un commit resté en retard. |
